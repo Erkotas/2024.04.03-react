@@ -7,6 +7,9 @@ import CounterPage from './pages/CounterPage/CounterPage'
 import CitiesPage from './pages/CitiesPage/CitiesPage'
 import CarsPage from './pages/CarsPage/CarsPage'
 import TodoPage from './pages/TodoPage/TodoPage'
+import ChuckPage from './pages/ChuckPage/ChuckPage'
+import DogsPage from './pages/DogsPage/DogsPage'
+
 
 
 const App = () => {
@@ -23,6 +26,9 @@ const App = () => {
         <Route path='/cities' element={<CitiesPage />} />
         <Route path='/cars' element={<CarsPage />} />
         <Route path='/todo' element={<TodoPage />} />
+        <Route path='/api/chuck' element={<ChuckPage />} />
+        <Route path='/api/dogs' element={<DogsPage />} />
+        
         
         
 

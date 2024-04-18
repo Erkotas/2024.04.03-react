@@ -21,6 +21,19 @@ const PageHeader = () => {
           <li>
             <NavLink to="/huddle">Huddle</NavLink>
           </li>
+
+          <li>
+          <NavLink to="/api">API</NavLink>
+            <ul>
+              <li>
+              <NavLink to="/api/chuck">Chuck</NavLink>
+              </li>
+              <li>
+              <NavLink to="/api/dogs">Dogs</NavLink>
+              </li>
+            </ul>
+          </li>
+          
           <li>
             <NavLink to="/testimonials">Testimonials</NavLink>
           </li>
